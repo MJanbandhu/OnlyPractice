@@ -30,7 +30,10 @@ select max(profit) from sales where profit <(select max(profit) from sales);
 
 # highest five studend who scored high
 
-select max(score), name from 
+select max(score), name from student ;
 
 
 
+select name from superhero where length(name) < 7 order by ID asc;
+
+select name from superhero where lenght(name) < 7 order by ID asc;
