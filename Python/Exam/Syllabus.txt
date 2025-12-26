@@ -1,0 +1,29 @@
+Python Basics
+
+Variables: Used to store data values
+
+Keywords: Reserved words with predefined meaning
+
+Literals: Fixed values like numbers and strings
+
+Multi-Line Statements: Code written across multiple lines
+
+Quotation: Single, double, or triple quotes for strings
+
+Comments: Used to explain code (#)
+
+Indentation: Defines code blocks
+
+Input/Output Functions: input(), print()
+
+Operators
+
+Arithmetic: + - * / %
+
+Comparison: == != > < >= <=
+
+Logical: and, or, not
+
+Identity: is, is not
+
+Membership: in, not in
