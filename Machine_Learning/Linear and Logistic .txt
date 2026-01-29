@@ -1,0 +1,3 @@
+Linear Regression = Linear regression is used to find the linear relationship between independent and dependent variables by fitting a straight line to predict a continuous outcome.
+
+Logistic Regression = Logistic regression is used to find the relationship between independent variables and a categorical (binary) dependent variable by fitting an S-shaped (sigmoid) curve to predict the probability of an outcome.
