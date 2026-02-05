@@ -1,0 +1,3 @@
+natural language processing is important
+machine learning is a part of artificial intelligence
+deep learning models learn patterns from data
