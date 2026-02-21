@@ -1,0 +1,47 @@
+API is application programming interface.
+What does an application do? It will let a human use it and get benefitted. Like google maps
+API is same as application but designed to be used by another program or system or tool. Like swiggy or zomato, uber all of them use api of google maps or bing maps. 
+PowerBI, some ppl wouldn't gotten access to those geographical maps……That's because Bing api isn't being allowed in your system. 
+
+
+LLMs - chatgpt
+You ask - what is the net income of indian? --- chatgpt has information - looks into it and gives you the answer.
+ChatGPT 
+GPT - Generative Pretrained Transformer (Transformer is a revolutionary architecture in nlp) - Generative AI - It is trained to generate information. 
+From young age a person keeps absorbing knowledge all of it. Technically your brain is getting trained. After 50 years or 60 years, you have that world wisdom and knowledge that if someone asks you something - you'll give them all information (same thing GPT does). Imagine a 60 year old person A
+	1. A knows how to save money, how to earn money, how to spend, which are good ways of making assets, how to invest all of it. So A has complete finance knowledge - gained over years of experience, exposure and wisdom.
+	2. B asks A --- 'Hey, what are the latest investments that are giving maximum returns'  For A to help B, A must update himself with latest knowledge. How does B get latest knowledge? Reading news papers, watching tv, books or anything - Your GPT does the same thing by RAG architecture. 
+	RAGs are knowledge databases. Its not language or numeric data, but vector databases. Every info, is concised into a fixed length vector (embedding) and stored inside. If B asks the question, A will mentally refer to the relevant articles in mind  - RAG finds most similar embeddings, and it takes the information from the meta data of embedding. 
+	3. C asks A --- 'Hey, based on my income, how should I plan my spendings/savings/investments' For A to help C, A must know C's earnings, C's responsibilities. How will A know all of it? This is not general knowledge, so, you really cannot find it in vector database. You need access to C's bank statement, you need access to C's home expenses sheet, or C's balance sheet. How do you get access????? Only if A gives you.
+       C must allow A to access his database or some tool - MCP (Model Context Protocol)
+
+What is MCP? MCP is a way of allowing you to access a tool. You define how to connect to your tool. 
+What is the difference between api and mcp?
+
+API is meant to connect different applications or systems, MCP is meant to connect different tools
+You can use api and mcp interchageably. API is accesible over http protocol. Mcp is a protocol itself. Mcp is a way to connect to those tools not accesible by http (they are not web services)
+
+What is the use of MCP? MCP is used to give power to AI.
+You ask chatgpt, generate a sql query to filter all employees whose gender is female. You run the query on database and get the results. Now, go to gmail, you manually enter those emails and send them 'happy women's day'
+
+Imagine an application doing all of this. Like it queries the database, and immediately send mails to them.
+
+Imagine you can design your own interface like chatgpt, using api keys in the background, and using MCP server, you connect to the sql and similarly from the results generated, you access your gmail and send a mail.
+ You ask a natural language query and The tool that can connect to your sql and generate results out - This is called AI agent.
+
+AI tool with generative capability is GENAI - it started from chatgpt
+With invention of mcps, AI agents - ai tools or llms with the power to access services
+On the other hand, you need one agent to generate emails of all female employees and one agent to send a mail.
+Imagine a LLM sitting on the top of all of them and operating both the agents based on user requirement - Agentic AI.
+
+
+This is a simple structure of a mcp server (which defines the credentials of the db, and how to connect and run a query). An mcp server can have hundreds of tools. 
+
+Mcp client - gives a query to the mcp server's tool. The server takes care of connecting to the tool and doing operations.
+
+Exercise for you=================Use a opengrok api key or gemini api key, design a small streamlit app, you should be able to ask question in natural language, the api will turn it into a sql query and give to mcp client. 
+
+You ask 'what is the average salary of finance ppl'. LLM will understand and translate the query as 'select avg(salary) from employees where department='finance''
+
+
+
