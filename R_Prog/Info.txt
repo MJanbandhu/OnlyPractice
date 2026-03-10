@@ -1,0 +1,54 @@
+R is an open-source programming language mainly used for statistical computing, data analysis, and data visualization. It was developed by Ross Ihaka and Robert Gentleman in the 1990s.
+
+R is widely used by data scientists, statisticians, and researchers for analyzing data and building statistical models.
+
+Key features of R:
+
+Open-source and freely available.
+
+Strong support for statistical analysis and mathematical modeling.
+
+Powerful data visualization capabilities.
+
+
+
+
+| Python Data Types | R Data Types | Data Structures |
+| ----------------- | ------------ | --------------- |
+| int               | Integer      | Vector          |
+| float             | Numeric      | Matrix          |
+| str               | Character    | List            |
+| bool              | Logical      | Data Frame      |
+| complex           | Complex      | Array           |
+| NoneType          | NULL / NA    | Factor          |
+
+
+
+
+R Data Types:
+
+Integer
+
+Numeric
+
+Character
+
+Logical
+
+Complex
+
+NULL / NA
+
+R Data Structures:
+
+Vector – basic one-dimensional data container
+
+Matrix – two-dimensional structure with same data type
+
+List – can store different types of elements
+
+Data Frame – table-like structure used for datasets
+
+Array – multi-dimensional data structure
+
+Factor – used for categorical data
